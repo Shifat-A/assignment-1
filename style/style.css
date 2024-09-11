@@ -20,9 +20,34 @@
 }
 
 /* share-style */
+.text-center{
+    text-align: center;
 
+}
+.share-btn{
+    text-align: left;
+    justify-content: left;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 32px;
+    
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(13, 19, 33, 0.7) ;
+}
+.share-text{
+    color: rgba(13, 19, 33, 1);
+    font-weight: 900;
+    font-size: 32px;
+}
+.title-descrition{
+    font-size: 16px;
+    color:rgba(13, 19, 33, 0.7);
+}
 
 /* banner-style */
+
 .margin-banner{
     margin: 26px 221px 78px 221px;}
     
@@ -59,4 +84,43 @@
     
     text-align: center; 
     justify-content: space-around;
+}
+/* 2nd part style */
+.bg-color{
+    background-color: rgba(13, 19, 33, 0.02);
+
+}
+.border{
+    border: 0px;
+    padding: 80px 145px;
+    margin: 83px 150px;
+}
+.layer-1{
+    display: flex;
+    gap: 98.83px;
+    justify-content: space-between;
+    /* text-align: center; */
+    margin-top: 48px;
+    border: 0px solid;
+    border-radius: 16px;
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    /* background-image: linear-gradient(rgba(255, 255, 255, 1)); */
+
+}
+.btn-left{
+    text-align: left;
+    justify-content: ;
+}
+.layer-title{
+    text-align: left;
+font-weight: bold;
+font-size: 24px;
+color: rgba(13, 19, 33, 0.7);
+
+}
+.layer-description{
+    text-align: left;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
 }
