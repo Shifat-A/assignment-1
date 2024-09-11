@@ -24,6 +24,10 @@
     text-align: center;
 
 }
+.margin{
+    margin-left:150px ;
+    margin-right:150px ;
+}
 .share-btn{
     text-align: left;
     justify-content: left;
@@ -85,7 +89,7 @@
     text-align: center; 
     justify-content: space-around;
 }
-/* 2nd part style */
+/* 2nd part sectio-1 style */
 .bg-color{
     background-color: rgba(13, 19, 33, 0.02);
 
@@ -108,19 +112,29 @@
     /* background-image: linear-gradient(rgba(255, 255, 255, 1)); */
 
 }
-.btn-left{
-    text-align: left;
-    justify-content: ;
-}
+
 .layer-title{
-    text-align: left;
+    /* text-align: left; */
 font-weight: bold;
 font-size: 24px;
 color: rgba(13, 19, 33, 0.7);
 
 }
 .layer-description{
-    text-align: left;
+    /* text-align: left; */
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
+}
+
+/* section-2 style */
+.section-2{
+    padding: 0px 144px 48px 144px;
+
+}
+    
+.video-configer{
+    border: 10px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius:16px;
 }
