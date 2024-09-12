@@ -24,6 +24,18 @@
     text-align: center;
 
 }
+.text{
+    font-weight: 900;
+    font-size: 32px;
+    color: rgba(13, 19, 33, 1);
+}
+/* .share-text{
+    color: rgba(13, 19, 33, 1);
+    font-weight: 900;
+    font-size: 32px; 
+} */
+
+
 .margin{
     margin-left:150px ;
     margin-right:150px ;
@@ -40,11 +52,7 @@
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(13, 19, 33, 0.7) ;
 }
-.share-text{
-    color: rgba(13, 19, 33, 1);
-    font-weight: 900;
-    font-size: 32px;
-}
+
 .title-descrition{
     font-size: 16px;
     color:rgba(13, 19, 33, 0.7);
@@ -68,6 +76,7 @@
     color: rgba(13, 19, 33, 1);
 }
 .banner-description{
+    text-align: center;
     font-size: 16px;
     color:rgba(13, 19, 33, 1) ;
     margin-bottom: 0px;
@@ -95,6 +104,7 @@
 
 }
 .border{
+
     border: 0px;
     padding: 80px 145px;
     margin: 83px 150px;
@@ -123,7 +133,7 @@ color: rgba(13, 19, 33, 0.7);
 .layer-description{
     /* text-align: left; */
     font-size: 16px;
-    color: rgba(13, 19, 33, 1);
+    color: rgba(13, 19, 33, 0.7);
 }
 
 /* section-2 style */
@@ -137,4 +147,58 @@ color: rgba(13, 19, 33, 0.7);
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius:16px;
+}
+/* main part-2 end */
+
+/*  main part-3 */
+.margin-2{
+    margin-top: 150px;
+    
+}
+.margin-3{
+    margin-right: 144px;
+    margin-left: 144px;
+    
+}
+.title{
+    font-weight: 900;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 1);
+}
+.share-text {
+   
+    font-weight: bold;
+    font-size: 16px;
+
+    color: rgba(13, 19, 33, 1);
+    
+}
+.display-flex{
+    display: flex;
+    gap: 24px;
+    padding: 10px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+    
+}
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding:40px;
+    border-radius: 16px;
+    
+}
+.css{
+    padding:40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    padding:40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.share-a{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
 }
